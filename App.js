@@ -22,6 +22,8 @@ export default function App() {
               iconName = "home";
             } else if (route.name === "Events") {
               iconName = "list";
+            } else if (route.name === "Contact") {
+              iconName = focused ? "user" : "user-o";
             }
 
             // You can return any component that you like here!
